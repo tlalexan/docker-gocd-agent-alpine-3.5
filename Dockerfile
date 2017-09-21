@@ -17,11 +17,11 @@
 # Please file any issues or PRs at https://github.com/gocd/docker-gocd-agent
 ###############################################################################################
 
-FROM alpine:3.5
+FROM alpine:3.6
 MAINTAINER GoCD <go-cd-dev@googlegroups.com>
 
 LABEL gocd.version="17.10.0" \
-  description="GoCD agent based on alpine version 3.5" \
+  description="GoCD agent based on alpine version 3.6" \
   maintainer="GoCD <go-cd-dev@googlegroups.com>" \
   gocd.full.version="17.10.0-5380" \
   gocd.git.sha="05598d88fd4dabdde1184faa4fbffc5f9406d0dc"
